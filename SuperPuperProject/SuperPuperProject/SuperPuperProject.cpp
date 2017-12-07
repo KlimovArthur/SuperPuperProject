@@ -24,23 +24,26 @@ int main()
 		{
 
 			cout << MySum(a, b) << endl;
-			//Разрабатывается
+			
 			break;
 		}
 		case 2: 
 		{
 			cout << MySub(a, b) << endl;
-			//Разрабатывается
+			
 			break;
 		}
 		case 3: 
+
 		{
-			//Разрабатывается
+			cout << MyMul(a, b) << endl; 
+			
 			break;
 		}
 		case 4: 
 		{
-			//Разрабатывается
+			cout << MyDiv(a,b ) << endl;
+			
 			break;
 		}
 		default: // если count равно любому другому значению
@@ -49,4 +52,3 @@ int main()
 	system("pause");
 	return 0;
 }
-
