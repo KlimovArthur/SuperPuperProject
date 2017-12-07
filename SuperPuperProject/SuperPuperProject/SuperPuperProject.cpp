@@ -3,7 +3,7 @@
 
 #include "stdafx.h"
 #include <iostream>
-
+#include "funcs.h"
 
 using namespace std;
 
@@ -22,11 +22,14 @@ int main()
 	{
 		case 1: 
 		{
+
+			cout << MySum(a, b) << endl;
 			//Разрабатывается
 			break;
 		}
 		case 2: 
 		{
+			cout << MySub(a, b) << endl;
 			//Разрабатывается
 			break;
 		}
@@ -41,7 +44,7 @@ int main()
 			break;
 		}
 		default: // если count равно любому другому значению
-		cout << "Nepravilni vvod" << endl;
+		cout << "TAKOI FUNCTION NET" << endl;
 	}
 	system("pause");
 	return 0;
